@@ -1,0 +1,8 @@
+n1=int(input('dime 5 numeros enteros\n'))
+n2=int(input('uno mas\n'))
+n3=int(input('uno mas\n'))
+n4=int(input('uno mas\n'))
+n5=int(input('ultimo\n'))
+print('el promedio de ellos es',(n1+n2+n3+n4+n5)/5)
+# suma=(n1+n2+n3+n4+n5)
+# print('el promedio de ellos es',suma/5)
