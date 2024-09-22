@@ -1,8 +1,5 @@
 def estaListaEsPar(list1):
-    if ((len(list1) % 2) == 0):
-        return True
-    else:
-        return False
+    return ((len(list1) % 2) == 0)
 #print(estaListaEsPar([1,2,3]))
 def maximoYMinimo(list1):
     lista = []
