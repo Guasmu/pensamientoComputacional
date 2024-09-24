@@ -3,7 +3,7 @@ def consonante(x):
     return not(x in vocales)
 
 def tupla(x):
-    return x,consonante(x)
+    return 
 
 def esConsonante(string1):
     listaSalida = tuple(filter(consonante, string1))
