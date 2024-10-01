@@ -24,11 +24,11 @@ def traducirPalabraPorPalabra(lista):
         tupla = tuple(lista[i]+listaEnIngles[i])
         listaSalida.append(tupla)
     return listaSalida
-#print(traducirPalabraPorPalabra(['A','B','C','D']) )
+#print(traducirPalabraPorPalabra(['A','B','C','D','E','F']) )
 # 3 Hacer la sumatoria del reciproco de k, desde 1 hasta k inclusive
 def sumatoriaReciprocos(k):
     sumaTotal = 0
     for i in range(1,k+1):
         sumaTotal = sumaTotal + 1/i
     return sumaTotal
-#print(sumatoriaReciprocos(4))
+print(sumatoriaReciprocos(5))
