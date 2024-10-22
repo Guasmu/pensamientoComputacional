@@ -106,5 +106,22 @@ def tirar2Dados(n):
             diccionarioSalida[aleatorio]=c12
         i += 1
     return diccionarioSalida
-print(tirar2Dados(10000))
 #ambos fueron hechos de la manera mas simple posible, queda optimizarlo.
+def tirar1Dados2(n):
+    iteraciones = {}
+    for i in range(1,7):
+        iteraciones[i]= 0
+    for i in range(n):
+        resultadoTirada = random.randint(1,6)+random.randint(1,6)
+        iteraciones[resultadoTirada] += 1
+    return iteraciones
+#print(tirar1Dados2(100))
+def tirar2Dados2(n):
+    iteraciones = {}
+    for i in range(2,13):
+        iteraciones[i]= 0
+    for i in range(n):
+        resultadoTirada = random.randint(1,6)+random.randint(1,6)
+        iteraciones[resultadoTirada] += 1
+    return iteraciones
+print(tirar2Dados2(500000))
