@@ -20,4 +20,4 @@ def precioTotalC(lista):
        precio = i[1]
        total += int(precio)
     return total
-print(precioTotalC(juntarListaPrecios(articulos,precios)))
+#print(precioTotalC(juntarListaPrecios(articulos,precios)))
